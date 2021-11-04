@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+a {text-decoration: none;}
+
 nav {
     position: relative;
     background-color: #010101;
@@ -16,15 +18,42 @@ nav section {
     content: "";
     display: table;
     clear: both;
-    height: auto;
+    line-height: 80px;
 }
 
 .logo {
     float: left;
 }
+
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .navigation {
     float: left;
+    position: relative;
+    left: 50px;
+    width: calc(80% - 100px);
+    text-align: center; /* posizionato su .navigation ul li a  non funzionava*/
+    
 }
+
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    margin-right: 24px;
+
+}
+
 .login {
     float: right;
+}
+
+.login a {
+    display: inline-block;
 }
