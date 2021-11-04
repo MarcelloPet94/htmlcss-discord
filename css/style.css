@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+    width: calc(100% - 100px);
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #010101;
+}
+
+section .logo {
+    float: left;
+}
+section .navigation {
+    float: left;
+}
+section .login {
+    float: right;
+}
