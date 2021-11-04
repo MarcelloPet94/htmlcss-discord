@@ -5,14 +5,21 @@
     font-family: sans-serif;
 }
 
+/* global settings */
 a {
     text-decoration: none;
 
 }
+h1, h2 {
+    font-size: 42px;
+    margin: 32px 0;
+}
 
 .define_width {
     width: calc(100% - 300px);
+    margin: 0 auto;
 }
+/* global settings */
 
 nav {
     position: relative;
@@ -20,8 +27,6 @@ nav {
 }
 
 nav section {
-    position: relative;
-    left: 150px;
     background-color:red;
     content: "";
     display: table;
@@ -85,11 +90,6 @@ nav section {
     text-align: center;
 }
 
-#banner-text h1 {
-    font-size: 42px;
-    line-height: 80px;
-}
-
 #banner-text p {
     line-height: 24px;
 }
@@ -100,15 +100,13 @@ nav section {
 }
 
 .space_area {
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 #first-banner {
     content: "";
     display: table;
     clear: both;
-    position: relative;
-    left: 150px;
     background-color:darkcyan;
 }
 
@@ -117,7 +115,8 @@ nav section {
 }
 
 .txt-cont {
-    float: left;
+    float: right;
+    text-align: left;
     padding-top: 40px;
     width: 300px;
 }
