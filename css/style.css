@@ -1,9 +1,14 @@
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+
+}
 
 nav {
     position: relative;
@@ -47,6 +52,7 @@ nav section {
 .navigation ul li a {
     display: inline-block;
     margin-right: 24px;
+    color: #fff;
 
 }
 
@@ -56,4 +62,33 @@ nav section {
 
 .login a {
     display: inline-block;
+}
+
+#main-banner-content {
+    height: 500px;
+    background-color:cornflowerblue;
+}
+
+#banner-text {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    width: calc(100% - 300px);
+    padding: 0 200px;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+#banner-text h1 {
+    font-size: 42px;
+    line-height: 80px;
+}
+
+#banner-text p {
+    line-height: 24px;
+}
+
+#banner-text a {
+    display: inline-block;
+    padding: 24px 16px;
 }
