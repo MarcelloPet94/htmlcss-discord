@@ -20,16 +20,21 @@ h1, h2 {
     margin: 32px 0;
 }
 
+h3 {
+    font-size: 32px;
+}
+
 .define_width {
     width: calc(100% - 300px);
     margin: 0 auto;
 }
 
 .arrow {
-    border: solid black;
+    border: solid #fff;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
+    margin-right: 16px;
     transform: rotate(45deg);
   }
 
@@ -41,6 +46,7 @@ h1, h2 {
 
   .color-w {background-color: #fff; color: #000;}
   .color-b {background-color: #000; color: #fff;}
+  .color-violet {color: #fff; background-color: #7289da;}
 
 /* global settings */
 
@@ -85,11 +91,11 @@ nav section {
 
 }
 
-.login {
+.action-btn {
     float: right;
 }
 
-.login a {
+.action-btn a {
     display: inline-block;
     line-height: 32px;
 }
@@ -160,31 +166,45 @@ nav section {
 
 footer {
     position: relative;
-    background-color: #010101;
+    background-color: #23272a;
+}
+
+.footer-title {
+    color: #7289da;
+}
+
+span.footer-title {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 #footer-grid {
     content:"";
     display: table;
     clear: both;
-    background-color:red;
+    padding: 48px 0 32px;
 }
 
 #footer-grid div:nth-child(1) {
     width: 40%;
-    background-color: cornflowerblue;
 }
 
 #footer-grid > div {
     float: left;
     width: 15%;
-    height: 200px;
-    background-color: chocolate;
+}
+
+#footer-grid ul li {
+    line-height: 36px;
+}
+
+#footer-grid a {
+    font-weight: 600;
+    color: #fff;
 }
 
 #lang {
-    background-color: darkcyan;
-    line-height: 32px;
+    line-height: 52px;
 }
 
 #lang img, #lang a, #lang .arrow {
@@ -196,12 +216,19 @@ footer {
     height: 18px;
 }
 
+#social a {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 16px;
+}
+
 footer section {
     content: "";
     display: table;
     clear: both;
-    border-top: 1px solid red;
+    border-top: 1px solid #7289da;
     padding-bottom:80px;
     line-height: 80px;
 }
+
 
