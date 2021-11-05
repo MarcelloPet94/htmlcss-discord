@@ -210,6 +210,11 @@ nav section a.btn:hover {
     line-height: 60px;
 }
 
+#central-banner .color-violet:hover {
+    background-color:rgba(114, 137, 218, 0.9);
+    box-shadow:3px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
 footer {
     background-color: #23272a;
 }
