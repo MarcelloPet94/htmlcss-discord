@@ -8,7 +8,6 @@
 /* global settings */
 a {
     text-decoration: none;
-
 }
 
 ul li {
@@ -92,11 +91,18 @@ nav section {
     margin-right: 24px;
     color: #fff;
     line-height: 32px;
+}
 
+.navigation ul li a:hover {
+    text-decoration: underline;
 }
 
 .action-btn {
     float: right;
+}
+
+nav section a.btn:hover {
+    box-shadow:3px 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .action-btn a {
@@ -131,6 +137,17 @@ nav section {
     line-height: 60px;
 }
 
+#banner-text a.color-w:hover {
+    color: royalblue;
+    box-shadow:3px 3px 15px rgba(0, 0, 0, 0.3);   
+}
+
+#banner-text a.color-b:hover {
+    color: #fff;
+    background-color: #2f2f2f;
+    box-shadow:3px 3px 15px rgba(0, 0, 0, 0.3);   
+}
+
 .space_area {
     padding: 80px 0;
 }
@@ -150,6 +167,14 @@ nav section {
     float: left;
     width: 50%;
     padding: 0 80px;
+}
+
+#second {
+    background-color: #f6f6f6;
+}
+
+.wave-transform {
+    transform: rotate(180deg);
 }
 
 .bg-central-banner {
@@ -221,6 +246,10 @@ span.footer-title {
 #footer-grid a {
     font-weight: 600;
     color: #fff;
+}
+
+#footer-grid ul li a:hover {
+    text-decoration: underline;
 }
 
 #lang {
