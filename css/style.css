@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 
 }
+
+ul li {
+    list-style-type: none;
+}
+
 h1, h2 {
     font-size: 42px;
     margin: 32px 0;
@@ -19,19 +24,36 @@ h1, h2 {
     width: calc(100% - 300px);
     margin: 0 auto;
 }
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  }
+
+.btn {
+      padding: 0 16px;
+      margin: 0 8px;
+      border-radius: 35px;
+  }
+
+  .color-w {background-color: #fff; color: #000;}
+  .color-b {background-color: #000; color: #fff;}
+
 /* global settings */
 
 nav {
     position: relative;
-    background-color: #010101;
+    background-color: #2e61df;
 }
 
 nav section {
-    background-color:red;
     content: "";
     display: table;
     clear: both;
-    line-height: 80px;
+    padding: 24px 0;
 }
 
 .logo {
@@ -47,12 +69,11 @@ nav section {
 .navigation {
     float: left;
     width: 60%;
-    text-align: center; /* posizionato su .navigation ul li a  non funzionava*/
+    text-align: center; 
     
 }
 
 .navigation ul li {
-    list-style-type: none;
     display: inline;
 }
 
@@ -60,6 +81,7 @@ nav section {
     display: inline-block;
     margin-right: 24px;
     color: #fff;
+    line-height: 32px;
 
 }
 
@@ -69,34 +91,34 @@ nav section {
 
 .login a {
     display: inline-block;
+    line-height: 32px;
 }
 
 #main-banner-content {
-    position: relative;
-    height: 500px;
+    min-height: 500px;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%;
+    color: #fff;
 
 }
 
 #banner-text {
-    position: absolute;
-    top: 250px;
-    left: 150px;
-    padding: 0 200px;
-    background-color: cornsilk;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 80px 0 0;
     text-align: center;
 }
 
 #banner-text p {
     line-height: 24px;
+    margin-bottom: 32px;
 }
 
 #banner-text a {
     display: inline-block;
-    padding: 24px 16px;
+    line-height: 60px;
 }
 
 .space_area {
@@ -165,9 +187,13 @@ footer {
     line-height: 32px;
 }
 
+#lang img, #lang a, #lang .arrow {
+    margin-right:8px;
+}
+
 #lang img {
     vertical-align: middle;
-    height: 32px;
+    height: 18px;
 }
 
 footer section {
